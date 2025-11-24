@@ -46,4 +46,21 @@ public class Concessionario {
         }
         System.out.println(saldovendute);
     }
+
+    public String getStatoScociale() {
+        return statoScociale;
+    }
+
+    public String getPIVA() {
+        return PIVA;
+    }
+
+    public Auto[] getParco() {
+        return parco;
+    }
+
+    public int getSaldovendute() {
+        return saldovendute;
+    }
+    
 }
