@@ -62,5 +62,21 @@ public class Concessionario {
     public int getSaldovendute() {
         return saldovendute;
     }
+
+    public void setStatoScociale(String statoScociale) {
+        this.statoScociale = statoScociale;
+    }
+
+    public void setPIVA(String PIVA) {
+        this.PIVA = PIVA;
+    }
+
+    public void setParco(Auto[] parco) {
+        this.parco = parco;
+    }
+
+    public void setSaldovendute(int saldovendute) {
+        this.saldovendute = saldovendute;
+    }
     
 }
