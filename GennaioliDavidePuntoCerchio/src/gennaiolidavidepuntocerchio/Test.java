@@ -26,6 +26,7 @@ public class Test {
         
         System.out.println("c1 contiene p1: " + cerchio.contienePunto(p1));
         System.out.println("c1 interseca c2: " + cerchio.intersecaCerchio(cerchio1));
+        System.out.println(cerchio.toString());
        
     }
 }

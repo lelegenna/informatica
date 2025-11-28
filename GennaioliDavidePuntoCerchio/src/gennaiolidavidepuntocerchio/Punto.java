@@ -17,17 +17,30 @@ public class Punto {
         this.x = x;
         this.y = y;
     }
+    public void setX(int x) {
+        this.x = x;
+    }
+    public void setY(int y) {
+        this.y = y;
+    }   
     public int getX() {
         return x;
     }
     public int getY() {
         return y;
     }
-    
+    /**
+     * calcola la distanza dall'origine
+     * @return
+     */
     public int distanzaOrigine(){
         return (int)Math.sqrt(Math.pow(x,2)+Math.pow(y, 2));
     }
-    
+    /**
+     * calcola la distanza da un altro punto
+     * @param altro
+     * @return
+     */
     public int distanzaAltroPunto(Punto altro) {
         return (int) Math.sqrt(
             Math.pow(this.x - altro.x, 2) +
